@@ -1,0 +1,409 @@
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+    padding: 0;
+    margin: 0;
+}
+
+body h1,
+h2 {
+    font-family: "Roboto Condensed", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 120%;
+}
+
+*:focus {
+    outline: 2px dotted #ff7500;
+    outline-offset: 3px;
+}
+
+/* header {
+    font-weight: 500;
+    letter-spacing: 1px;
+  } */
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+.logo-link {
+    transition: opacity 0.4s ease;
+}
+
+.logo-link:hover {
+    opacity: 0.8;
+}
+
+.logo-link:active {
+    opacity: 0.6;
+}
+
+.logo-link img {
+    display: block;
+}
+
+
+button {
+    font-weight: 700;
+}
+
+.header {
+    border-top: 5px solid #ff7500;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    background-color: #fff;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-header-actions {
+    display: flex;
+    align-items: center;
+}
+
+.site-nav {
+    margin-right: 32px;
+    font-family: "Roboto", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    transition: color 0.4s ease,
+        opacity 0.4s ease;
+}
+
+
+/* .site-nav:last-child{
+    margin-right: 0;
+  }  everything is going right when i turn this on*/
+
+.site-nav:hover {
+    color: #ff7500;
+}
+
+.site-nav:active {
+    opacity: 0.6;
+}
+
+.site-nav-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.main-button {
+    padding: 12px 24px;
+    border-radius: 4px;
+    border: none;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 15px;
+    background-color: #ff7500;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 0.5px;
+    transition: opacity 0.4s ease;
+}
+
+.main-button:hover {
+    opacity: 0.8;
+}
+
+.main-button:active {
+    opacity: 0.6;
+}
+
+/* PROMO */
+
+.python-book {
+    background-color: #252420;
+    color: #fff;
+
+}
+
+.python-book-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.class-content {
+    width: 390px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.python-image {
+    height: 510px;
+    width: 510px;
+    border-radius: 8px;
+    /* box-shadow: 24px 24px 0 0 rgba(255, 117, 0, 0.6) ; because the picture itself contains shadow*/
+}
+
+.orange-hr {
+    width: 80px;
+    height: 3px;
+    background-color: #ff7500;
+    border: none;
+    margin: 0;
+    margin-bottom: 40px;
+}
+
+.feature-list {
+    display: flex;
+    padding: 0;
+    margin: 0;
+
+}
+
+.hero-heading {
+    font-size: 40px;
+    line-height: 120%;
+    /* or 48px */
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.hero-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+/* PROMO */
+
+.promo {
+    background-color: #fff;
+    padding-top: 210px;
+    padding-bottom: 210px;
+}
+
+.promo-heading {
+    width: 440px;
+    font-size: 72px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    margin-top: 0;
+    margin-bottom: 72px;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 117, 0, 0.2);
+    border-radius: 50%;
+    margin-bottom: 32px;
+
+}
+
+.list-box {
+    margin-bottom: 12px;
+    margin-top: 0;
+    width: 340px;
+    margin-right: 40px;
+}
+
+.list-box:last-child {
+    margin-right: 0;
+}
+
+.promo-thesis {
+    width: 214px;
+    height: 29px;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+
+.promo-text {
+    padding-top: 10px;
+    margin: 0;
+    width: 314px;
+    height: 72px;
+    letter-spacing: 0.5px;
+}
+
+/* AKSIYA */
+
+.sale {
+    padding-top: 120px;
+    padding-bottom: 160px;
+}
+
+.aksiya-inner {
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    background-color: #252420;
+    padding: 64px;
+}
+
+
+.sale-container {
+    width: 440px;
+}
+
+.sale-heading {
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.sale-text {
+    margin: 0;
+    margin-bottom: 12px;
+}
+
+.sale-text:last-child {
+    margin-bottom: 0;
+}
+
+.sale-text-wrapper {
+    margin-bottom: 24px;
+}
+
+.yellow-text {
+    color: #ff7500;
+}
+
+.sale-img {
+    width: 440px;
+    height: 440px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* FOOTER */
+
+.footer {
+    background-color: #f8f8f8;
+    padding-top: 56px;
+    padding-bottom: 56px;
+}
+
+.site-footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-icons {
+    display: flex;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-icons li {
+    margin-right: 16px;
+}
+
+.footer-icons li:last-child {
+    margin-right: 0;
+}
+
+
+.footer-icons a {
+    color: #252420;
+    transition: color 0.3s ease;
+    display: block;
+}
+
+.footer-icons a:hover {
+    color: #ff7500;
+}
+
+.footer-icons a:active {
+    opacity: 0.6;
+}
+
+.footer-icons svg {
+    display: block;
+}
+
+ul {
+    list-style: none;
+}
+
+/* this is for list items given in the whole page */
+
+.site-footer-link {
+    display: flex;
+
+}
+
+.footer-links {
+    width: 224px;
+    padding: 0;
+    margin: 0;
+    margin-right: 68px;
+}
+
+.footer-links:last-child {
+    margin-right: 0;
+}
+
+.footer-link {
+    line-height: 19px;
+    text-decoration: none;
+    color: #252420;
+    transition: color 0.4s ease,
+        opasity 0.4s ease;
+}
+
+.footer-links li {
+    margin-bottom: 16px;
+}
+
+.footer-links li:last-child {
+    margin-bottom: 0;
+}
+
+.footer-line {
+    width: 1100px;
+    height: 2px;
+    margin-top: 40px;
+    margin-bottom: 64px;
+    background: rgba(37, 36, 32, 0.5);
+    border: 0;
+}
+
+.footer-link:hover {
+    color: #ff7500;
+}
+
+.footer-link:active {
+    opacity: 0.6;
+}
